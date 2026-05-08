@@ -78,7 +78,7 @@ export function Footer() {
               { href: "https://www.gamstop.co.uk/", src: "/gamstop.svg", alt: "GamStop" },
             ].map(({ href, src, alt }) => (
               <Link key={alt} href={href} target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-90 transition-opacity">
-                <img src={src} alt={alt} className="h-8 rounded bg-white/90 px-2 py-1 object-contain" />
+                <img src={src} alt={alt} className="h-8 rounded px-2 py-1 object-contain" />
               </Link>
             ))}
           </div>
