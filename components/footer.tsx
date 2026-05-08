@@ -71,8 +71,8 @@ export function Footer() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-5">
             {[
-              { href: "https://www.begambleaware.org/", src: "/gamble-aware.png", alt: "BeGambleAware" },
-              { href: "https://www.gamcare.org.uk/", src: "/gamcare.png", alt: "GamCare" },
+              { href: "https://www.begambleaware.org/", src: "/gamble.webp", alt: "BeGambleAware" },
+              { href: "https://www.gamcare.org.uk/", src: "/gamecare.svg", alt: "GamCare" },
               { href: "https://www.gamblingtherapy.org/", src: "/gordon.png", alt: "Gambling Therapy" },
               { href: "https://www.gamblingcommission.gov.uk/", src: "/Gambling_Commission_logo.png", alt: "UK Gambling Commission" },
               { href: "https://www.gamstop.co.uk/", src: "/gamstop.svg", alt: "GamStop" },
