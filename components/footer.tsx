@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { SiteWordmark } from "@/components/site-wordmark"
+import Image from "next/image"
 
 const nav = [
   { href: "/about", label: "About" },
@@ -11,20 +12,7 @@ const nav = [
 
 function FooterCrown() {
   return (
-    <svg width="44" height="36" viewBox="0 0 40 33" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path
-        d="M20 4L25.5 14.5L33 8L30 24H10L7 8L14.5 14.5L20 4Z"
-        stroke="#D4A94C"
-        strokeWidth="1.5"
-        fill="none"
-        strokeLinejoin="round"
-        strokeLinecap="round"
-      />
-      <rect x="9.5" y="25" width="21" height="4.5" rx="1" fill="#D4A94C" opacity="0.7" />
-      <circle cx="20" cy="4" r="2" fill="#D4A94C" />
-      <circle cx="7" cy="8" r="1.5" fill="rgba(255,255,255,0.4)" />
-      <circle cx="33" cy="8" r="1.5" fill="rgba(255,255,255,0.4)" />
-    </svg>
+    <Image src="/favicon.ico" alt="Crown" width={32} height={32} priority  />
   )
 }
 
